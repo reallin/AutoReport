@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:id="@+id/search_ll"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="#111111" >
+
+        <TextView
+            android:id="@+id/mysearch_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:onClick="titleListener"
+            android:text="汇报工具"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txv_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/search_ll"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="用户名："
+        android:textColor="#444444"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edit_admin"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignTop="@id/txv_admin"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/txv_admin"
+        android:minWidth="300dp"
+        android:paddingTop="5dp"
+        android:textColor="#444444"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txv_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/txv_admin"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="35dp"
+        android:text="密码："
+        android:textColor="#444444"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edit_pass"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@id/edit_admin"
+        android:layout_alignTop="@id/txv_pass"
+        android:layout_toRightOf="@id/txv_pass"
+        android:inputType="textPassword"
+        android:minWidth="300dp"
+        android:paddingTop="5dp"
+        android:textColor="#444444"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/rememberPwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/edit_pass"
+        android:layout_below="@id/edit_pass"
+        android:layout_gravity="left"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:button="@drawable/login_shape_checkbox"
+        android:checked="false"
+        android:gravity="center"
+        android:text="记住密码" />
+
+    <Button
+        android:id="@+id/open"
+        android:layout_width="305dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/rememberPwd"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/background_btn_shape"
+        android:gravity="center"
+        android:text="@string/hello_world" />
+
+    <Button
+        android:id="@+id/setTime"
+        android:layout_width="305dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/open"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_btn_shape"
+        android:text="设置自动汇报时间" />
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="305dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/setTime"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_btn_shape"
+        android:text="关闭自动汇报" />
+
+</RelativeLayout>

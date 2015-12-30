@@ -1,0 +1,79 @@
+﻿<ul class="report_ul">
+    <li class="report_title">本周目标</li>
+</ul>
+<ol class="report_ol">
+    <li class="report_content">&times;&times;&times;&times;。</li>
+    <li class="report_content">&times;&times;&times;&times;。</li>
+</ol>
+<ul class="report_ul">
+    <li class="report_title">待办事宜</li>
+</ul>
+<ol class="report_ol">
+    <li class="report_content">&times;&times;&times;&times;。</li>
+    <li class="report_content">&times;&times;&times;&times;。</li>
+</ol>
+<ul class="report_ul">
+    <li class="report_title">已办事宜</li>
+</ul>
+<ol class="report_ol">
+    <li class="report_content">&times;&times;&times;&times;。</li>
+    <li class="report_content">&times;&times;&times;&times;。</li>
+</ol>
+<ul class="report_ul">
+    <li class="report_title">相关问题</li>
+</ul>
+<ol class="report_ol">
+    <li class="report_content">&times;&times;&times;&times;。</li>
+    <li class="report_content">&times;&times;&times;&times;。</li>
+</ol>
+Week
+<ul class="report_ul">
+    <li class="report_title">待办事宜</li>
+</ul>
+<ol class="report_ol">
+    <li class="report_content">&times;&times;&times;&times;。</li>
+    <li class="report_content">&times;&times;&times;&times;。</li>
+</ol>
+<ul class="report_ul">
+    <li class="report_title">已办事宜</li>
+</ul>
+<ol class="report_ol">
+    <li class="report_content">&times;&times;&times;&times;。</li>
+    <li class="report_content">&times;&times;&times;&times;。</li>
+</ol>
+<ul class="report_ul">
+    <li class="report_title">相关问题</li>
+</ul>
+<ol class="report_ol">
+    <li class="report_content">&times;&times;&times;&times;。</li>
+    <li class="report_content">&times;&times;&times;&times;。</li>
+</ol>
+Week
+<ul class="report_ul">
+    <li class="report_title">待办事宜</li>
+</ul>
+<ol class="report_ol">
+    <li class="report_content">&times;&times;&times;&times;。</li>
+    <li class="report_content">&times;&times;&times;&times;。</li>
+</ol>
+<ul class="report_ul">
+    <li class="report_title">已办事宜</li>
+</ul>
+<ol class="report_ol">
+    <li class="report_content">&times;&times;&times;&times;。</li>
+    <li class="report_content">&times;&times;&times;&times;。</li>
+</ol>
+<ul class="report_ul">
+    <li class="report_title">相关问题</li>
+</ul>
+<ol class="report_ol">
+    <li class="report_content">&times;&times;&times;&times;。</li>
+    <li class="report_content">&times;&times;&times;&times;。</li>
+</ol>
+<ul class="report_ul">
+    <li class="report_title">本周总结</li>
+</ul>
+<ol class="report_ol">
+    <li class="report_content">&times;&times;&times;&times;。</li>
+    <li class="report_content">&times;&times;&times;&times;。</li>
+</ol>
